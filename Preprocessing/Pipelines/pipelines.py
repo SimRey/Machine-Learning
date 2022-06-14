@@ -81,7 +81,7 @@ model = RandomForestRegressor(n_estimators=100, random_state=0)
 
 # Bundle preprocessing and modeling code in a pipeline
 my_pipeline = Pipeline(steps=[('preprocessor', preprocessor),
-                              ('model', model)
+                              ('model', model)  
                               ])
 
 # Preprocessing of training data, fit model
