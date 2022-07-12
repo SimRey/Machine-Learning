@@ -11,7 +11,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn import tree
 
-df = pd.read_csv("salaries.csv")
+df = pd.read_csv("Preprocessing\Categorical features\Encoding\salaries.csv")
 print(df)
 
 data = df.drop(columns="salary_more_then_100k")

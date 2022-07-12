@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 import category_encoders as ce
 
-df = pd.read_csv("car_data.csv")
+df = pd.read_csv("Preprocessing\Categorical features\Encoding\car_data.csv")
 print(df)
 
 data = df.drop(columns="price")
